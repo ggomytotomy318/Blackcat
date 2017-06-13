@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	.navbar-default{ background-color:transparent; border-color:transparent;}
+	.jumbotron{ background-color:transparent;}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		 background-color:transparent;
+		 font-size:16px;
+		 }
+	body{ font-size: 18px; font-family: Folks-Light, Folks, "Odin Rounded", "Typo GeoSlab Thin Demo" ;}
+    
+    
+    
+    
+    
+    </style>
+  </head>
+  <body>
+  <center>
+  	<img src="img/OKCAT_Myeongdong_01_0922.png"class="img-responsive  text-center" >
+  </center>
+  <hr>
+
+ 					<!-----NAVBAR------->
+  <center>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact us</a></li> 
+        <li><a href="#">Photos</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+      </div>
+    </nav>
+    </center>
+    <hr>
+<!------------JUMBOTRON---------------->
+<div class="container text-center">
+    <div class="jumbotron">
+      <h1>Welcome</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut urna in ante pharetra vehicula. Morbi rhoncus sollicitudin lorem, a malesuada nunc suscipit ac. Fusce nec porta odio. Quisque at nisi id nisl maximus tincidunt. Fusce bibendum ullamcorper nunc, at consequat elit ullamcorper nec. Quisque rhoncus ut nunc quis congue. Vivamus fringilla, sem ac dignissim ultricies, mauris ante sollicitudin ex, id iaculis eros libero eget nisl. In ac imperdiet tortor, eu convallis magna. Maecenas quis nisl tincidunt, malesuada purus nec, varius eros. Duis eget placerat sapien, at ultrices purus. Aliquam rhoncus tristique condimentum. </p>
+    </div>
+</div>    
+<hr>
+
+<!------------------PAGE HEADER-------------------->
+<div class="container">
+<div class="page-header text-center">
+  <h1>B E S T Q U O T E S  <br></h1>
+</div>
+
+	<div class="row">
+    	<div class="col-md-4 col-sm-6">
+        <blockquote>
+		<p>“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.” </p>
+        <footer> Marilyn Monroe </footer>
+        </blockquote>
+        </div>
+        
+    	<div class="col-md-4 col-sm-6">
+        <blockquote>
+		<p>“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.” </p>
+        <footer> Albert Einstein </footer>
+        </blockquote>
+        </div>
+
+    	<div class="col-md-4 col-sm-6">
+        <blockquote>
+		<p>“The truth." Dumbledore sighed. "It is a beautiful and terrible thing, and should therefore be treated with great caution.” </p>
+        <footer> J.K. Rowling, Harry Potter and the Sorcerer's Stone</footer>
+        </blockquote>
+        </div>
+     </div>
+     </div>
+
+<!----------------------MODAL-------------------------->
+<hr>
+<div class="container text-center">
+	<h1>SHOPPING </h1>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum urna sit amet massa pretium, quis varius turpis viverra. Suspendisse tempor metus elit, mollis lobortis nunc elementum sit amet. Aenean turpis urna, egestas non suscipit sed, tempus quis magna. </p>
+    
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/10372073_876975985650773_2391739366881279222_n.jpg" class="img-responsive">
+      <hr>
+        <h3>Product 1</h3>
+        <p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a></p>
+      </div>
+      <div id="myModal" class="modal fade" role="dialog">
+ 		 <div class="modal-dialog modal-sm">
+
+    <!-- Modal content 1-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Product 1</h4>
+      </div>
+      <div class="modal-body">
+      	<img src="img/10372073_876975985650773_2391739366881279222_n.jpg" class="img-responsive">
+        <p> $ </p>
+        <p> Cool Summer</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/10423625_876975982317440_2800634711226752212_n.jpg"class="img-responsive">
+      <hr>
+        <h3>Product 2</h3>
+        <p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a></p>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/10628345_926311487383889_2290410922946143990_n.jpg"class="img-responsive">
+      <hr>
+        <h3>Product 3</h3>
+        <p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a></p>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/10635700_925547150793656_1178552658920542957_n.jpg"class="img-responsive">
+      <hr>
+        <h3>Product 4</h3>
+         <p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a></p>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/10675516_927341333947571_5591599727538487966_n.jpg"class="img-responsive" >
+      <hr>
+        <h3>Product 5</h3>
+     <p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a></p>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/10458341_876975928984112_2726850075487020351_n.jpg"class="img-responsive">
+      <hr>
+        <h3>Product 6</h3>
+     <p><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Details</a></p>
+      </div>
+    </div>
+    
+<!------------CAROUSEL-------------->
+<div class="container text-center">
+  <h1>C U T E</h1>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner text-center">
+      <figure class="item active text-center">
+      	<a href="http://wallpaper-gallery.net/images/desktop-animal-wallpaper/desktop-animal-wallpaper-25.jpg" target="_blank">
+         <img src="img/desktop-animal-wallpaper-25.jpg"class="img-responsive">
+         </a>
+         <p><h4>SÓC</h4></p>
+      </figure>
+
+      <figure class="item text-center">
+      	<a href="http://wallpapercave.com/wp/PbUnWY6.jpg " target="_blank">
+        <img src="img/PbUnWY6.jpg" class="img-responsive">
+        </a>
+         <p><h4>SÓC</h4></p>
+      </figure>
+		 
+      <figure class="item text-center">
+      	<a href="https://wallpapersafari.com/animal-wallpaper-images/" target="_blank">
+        <img src="img/Animals widescreen wallpapers - Animals Wallpaper 2757925 - Fanpop.jpg"class="img-responsive">
+        </a>                          
+        <p><h4>SÓC</h4></p>
+     </figure>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>    
+    
+    
+    
+  </div>
+</div>
+ 
+ </div>
+ </div>
+  
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
